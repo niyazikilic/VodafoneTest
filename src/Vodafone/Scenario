@@ -1,0 +1,9 @@
+  Feature: Vodafone Shopping Search Functionality
+Scenario: Vodafone shopping Search Verification
+  Given User is on the vodafone page
+  When User hovers over shopping tab
+  When User click on the phones
+  And User enter iphone into search box
+  And User select most populer iphone and click it
+  And User clicks add to chart
+  Then User should see the login page
